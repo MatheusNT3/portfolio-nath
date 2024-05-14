@@ -1,0 +1,18 @@
+header-container {
+  position: relative;
+  
+}
+
+.menu-nav {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  margin-top: 64px;
+  gap: 44px;
+  position: absolute;
+  left: calc(55%);
+}
+
+.menu-nav a {
+  padding: 8px 16px;
+}
