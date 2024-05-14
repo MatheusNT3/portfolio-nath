@@ -15,4 +15,18 @@ header-container {
 
 .menu-nav a {
   padding: 8px 16px;
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.menu-nav a:hover {
+  background: #DD90E9;
+  border-radius: 8px;
+  transition: 0.3s;
+}
+
+.link-ativo {
+  background-color: #BAADAA;
+  border-radius: 8px;
 }

@@ -1,2 +1,8 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+
+
+
 @import "./global/global.css";
 @import "./global/header.css";
