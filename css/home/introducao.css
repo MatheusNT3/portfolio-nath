@@ -1,5 +1,9 @@
+.introducao-cases {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+}
+
 .introducao-container {
-  /* background-color: aqua; */
   display: inline-block;
   margin-top: 376px;
   margin-left: 106px;
@@ -40,12 +44,24 @@
   display: flex;
   gap: 32px;
   justify-content: space-between;
+  align-items: center;
 }
 
 .menu-perfil li {
   padding: 8px 12px;
   background: #d2c9c7;
   border-radius: 16px;
-  gap: 8px;
+  gap: 8px; 
+}
+
+.menu-perfil li > a {
   display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+}
+
+.menu-perfil li:hover {
+  background: #DD90E9;
+  transition: 0.3s;
 }
