@@ -3,6 +3,10 @@
 
 
 
-
+/* GLOBAL */
 @import "./global/global.css";
 @import "./global/header.css";
+
+
+/* Home */
+@import "./home/introducao.css";
